@@ -3,4 +3,17 @@
     flex-direction: column;
     align-items:center;
     margin-top: 300px;  
+    width: 1400px;
+}
+.btn {
+    display: flex;
+}
+.title1{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.btns{
+    display: flex;
+    
 }

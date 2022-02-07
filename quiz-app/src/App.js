@@ -5,6 +5,7 @@ import Home from './components/Pages/Home/Home';
 import Quiz from './components/Pages/Quiz/Quiz';
 import Result from './components/Pages/Result/Result';
 
+
 function App() {
   return (
     <Router>
