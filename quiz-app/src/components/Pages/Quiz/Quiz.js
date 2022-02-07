@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Result from '../Result/Result';
 import "./Quiz.css";
-const API_URL= 'https://opentdb.com/api.php?amount=4&category=26&difficulty=easy';
+const API_URL= 'http://my-json-server.typicode.com/DanielBarbakadze/Advanced-JS-and-React-Basics/db';
 
 const Quiz = () => {
     const [questions, setQuestions] = useState([]);
