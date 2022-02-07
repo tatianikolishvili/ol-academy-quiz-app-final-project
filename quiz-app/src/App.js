@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Pages/Home/Home';
 import Quiz from './components/Pages/Quiz/Quiz';
-// import Result from './components/Pages/Result/Result';
+import Result from './components/Pages/Result/Result';
 
 function App() {
   return (
@@ -16,12 +16,11 @@ function App() {
         <Routes>
           <Route path='/quiz' element={ <Quiz/>}></Route>
         </Routes>  
-        {/* <Routes>
+        <Routes>
           <Route path='/result' element={ <Result/>}></Route>
-        </Routes>   */}
+        </Routes>  
       </div>
     </Router>
   );
-}
-
+};
 export default App;

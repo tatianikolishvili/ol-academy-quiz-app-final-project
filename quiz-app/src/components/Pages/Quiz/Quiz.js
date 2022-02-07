@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { Result } from '../..';
-
+import Result from '../Result/Result';
 import "./Quiz.css";
 const API_URL= 'https://opentdb.com/api.php?amount=4&category=26&difficulty=easy';
 
@@ -18,7 +17,7 @@ const Quiz = () => {
             <Result data={Result[0]}/>
         </div>
     ) : (
-        <h2 className='text-white'>hjhkjhkj</h2>
+        <h2 className='text-white'></h2>
     ); 
 };
 
